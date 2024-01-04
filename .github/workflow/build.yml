@@ -1,0 +1,9 @@
+name: first workflow
+
+on: push
+jobs:
+first-job: 
+  run-on: Ubuntu-latest
+  steps: 
+   -run: node --version
+   -run: npm --version
